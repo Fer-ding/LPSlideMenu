@@ -6,14 +6,14 @@
 //  Copyright © 2017年 LeapDing. All rights reserved.
 //
 
-#import "ViewController1.h"
+#import "MessageViewController.h"
 #import "LPSlideMenuController.h"
 
-@interface ViewController1 ()
+@interface MessageViewController ()
 
 @end
 
-@implementation ViewController1
+@implementation MessageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

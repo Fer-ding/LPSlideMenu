@@ -1,5 +1,5 @@
 //
-//  ViewController2.h
+//  ViewController1.h
 //  LPSlideMenu
 //
 //  Created by YueHui on 2017/3/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController2 : UIViewController
+@interface MessageViewController : UIViewController
 
 @end

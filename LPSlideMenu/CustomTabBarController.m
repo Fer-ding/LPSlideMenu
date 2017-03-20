@@ -7,9 +7,9 @@
 //
 
 #import "CustomTabBarController.h"
-#import "ViewController1.h"
-#import "ViewController2.h"
-#import "ViewController3.h"
+#import "MessageViewController.h"
+#import "LinkmanViewController.h"
+#import "DynamicViewController.h"
 
 @interface CustomTabBarController ()
 
@@ -21,9 +21,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self addChildViewController:[[ViewController1 alloc] init] title:@"消息" image:@"tab_recent_nor" selectedImage:@"tab_recent_press"];
-    [self addChildViewController:[[ViewController2 alloc] init] title:@"联系人" image:@"tab_qworld_nor" selectedImage:@"tab_qworld_press"];
-    [self addChildViewController:[[ViewController3 alloc] init] title:@"动态" image:@"tab_buddy_nor" selectedImage:@"tab_buddy_press"];
+    [self addChildViewController:[[MessageViewController alloc] init] title:@"消息" image:@"tab_recent_nor" selectedImage:@"tab_recent_press"];
+    [self addChildViewController:[[LinkmanViewController alloc] init] title:@"联系人" image:@"tab_qworld_nor" selectedImage:@"tab_qworld_press"];
+    [self addChildViewController:[[DynamicViewController alloc] init] title:@"动态" image:@"tab_buddy_nor" selectedImage:@"tab_buddy_press"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,24 +1,24 @@
 //
-//  ViewController2.m
+//  ViewController3.m
 //  LPSlideMenu
 //
 //  Created by YueHui on 2017/3/17.
 //  Copyright © 2017年 LeapDing. All rights reserved.
 //
 
-#import "ViewController2.h"
+#import "DynamicViewController.h"
 
-@interface ViewController2 ()
+@interface DynamicViewController ()
 
 @end
 
-@implementation ViewController2
+@implementation DynamicViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"联系人";
+    self.title = @"动态";
 }
 
 - (void)didReceiveMemoryWarning {

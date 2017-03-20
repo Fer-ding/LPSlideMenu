@@ -1,24 +1,24 @@
 //
-//  ViewController3.m
+//  ViewController2.m
 //  LPSlideMenu
 //
 //  Created by YueHui on 2017/3/17.
 //  Copyright © 2017年 LeapDing. All rights reserved.
 //
 
-#import "ViewController3.h"
+#import "LinkmanViewController.h"
 
-@interface ViewController3 ()
+@interface LinkmanViewController ()
 
 @end
 
-@implementation ViewController3
+@implementation LinkmanViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"动态";
+    self.title = @"联系人";
 }
 
 - (void)didReceiveMemoryWarning {

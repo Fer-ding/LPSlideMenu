@@ -17,9 +17,9 @@
 		581901811E7BC3C80090AA71 /* LPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581901801E7BC3C80090AA71 /* LPMainViewController.m */; };
 		581901831E7BC8330090AA71 /* shouye.png in Resources */ = {isa = PBXBuildFile; fileRef = 581901821E7BC8330090AA71 /* shouye.png */; };
 		581901861E7BF1930090AA71 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581901851E7BF1930090AA71 /* CustomTabBarController.m */; };
-		581901891E7BF1B80090AA71 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 581901881E7BF1B80090AA71 /* ViewController1.m */; };
-		5819018C1E7BF1BF0090AA71 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018B1E7BF1BF0090AA71 /* ViewController2.m */; };
-		5819018F1E7BF1C80090AA71 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018E1E7BF1C80090AA71 /* ViewController3.m */; };
+		581901891E7BF1B80090AA71 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581901881E7BF1B80090AA71 /* MessageViewController.m */; };
+		5819018C1E7BF1BF0090AA71 /* LinkmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018B1E7BF1BF0090AA71 /* LinkmanViewController.m */; };
+		5819018F1E7BF1C80090AA71 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018E1E7BF1C80090AA71 /* DynamicViewController.m */; };
 		58B28BD01E7FB00400D25AFD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B28BCF1E7FB00400D25AFD /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,12 +42,12 @@
 		581901821E7BC8330090AA71 /* shouye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouye.png; sourceTree = "<group>"; };
 		581901841E7BF1930090AA71 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		581901851E7BF1930090AA71 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
-		581901871E7BF1B80090AA71 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
-		581901881E7BF1B80090AA71 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
-		5819018A1E7BF1BF0090AA71 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		5819018B1E7BF1BF0090AA71 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
-		5819018D1E7BF1C80090AA71 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
-		5819018E1E7BF1C80090AA71 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		581901871E7BF1B80090AA71 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		581901881E7BF1B80090AA71 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		5819018A1E7BF1BF0090AA71 /* LinkmanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkmanViewController.h; sourceTree = "<group>"; };
+		5819018B1E7BF1BF0090AA71 /* LinkmanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkmanViewController.m; sourceTree = "<group>"; };
+		5819018D1E7BF1C80090AA71 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		5819018E1E7BF1C80090AA71 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		58B28BCE1E7FB00400D25AFD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		58B28BCF1E7FB00400D25AFD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,12 +94,12 @@
 				581901801E7BC3C80090AA71 /* LPMainViewController.m */,
 				581901841E7BF1930090AA71 /* CustomTabBarController.h */,
 				581901851E7BF1930090AA71 /* CustomTabBarController.m */,
-				581901871E7BF1B80090AA71 /* ViewController1.h */,
-				581901881E7BF1B80090AA71 /* ViewController1.m */,
-				5819018A1E7BF1BF0090AA71 /* ViewController2.h */,
-				5819018B1E7BF1BF0090AA71 /* ViewController2.m */,
-				5819018D1E7BF1C80090AA71 /* ViewController3.h */,
-				5819018E1E7BF1C80090AA71 /* ViewController3.m */,
+				581901871E7BF1B80090AA71 /* MessageViewController.h */,
+				581901881E7BF1B80090AA71 /* MessageViewController.m */,
+				5819018A1E7BF1BF0090AA71 /* LinkmanViewController.h */,
+				5819018B1E7BF1BF0090AA71 /* LinkmanViewController.m */,
+				5819018D1E7BF1C80090AA71 /* DynamicViewController.h */,
+				5819018E1E7BF1C80090AA71 /* DynamicViewController.m */,
 				58B28BCE1E7FB00400D25AFD /* SecondViewController.h */,
 				58B28BCF1E7FB00400D25AFD /* SecondViewController.m */,
 				5819016D1E7B79E30090AA71 /* Assets.xcassets */,
@@ -204,9 +204,9 @@
 				581901811E7BC3C80090AA71 /* LPMainViewController.m in Sources */,
 				581901861E7BF1930090AA71 /* CustomTabBarController.m in Sources */,
 				581901691E7B79E30090AA71 /* ViewController.m in Sources */,
-				5819018F1E7BF1C80090AA71 /* ViewController3.m in Sources */,
-				581901891E7BF1B80090AA71 /* ViewController1.m in Sources */,
-				5819018C1E7BF1BF0090AA71 /* ViewController2.m in Sources */,
+				5819018F1E7BF1C80090AA71 /* DynamicViewController.m in Sources */,
+				581901891E7BF1B80090AA71 /* MessageViewController.m in Sources */,
+				5819018C1E7BF1BF0090AA71 /* LinkmanViewController.m in Sources */,
 				5819017E1E7BC3BE0090AA71 /* LPLeftViewController.m in Sources */,
 				58B28BD01E7FB00400D25AFD /* SecondViewController.m in Sources */,
 				581901661E7B79E30090AA71 /* AppDelegate.m in Sources */,
