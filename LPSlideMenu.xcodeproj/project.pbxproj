@@ -20,6 +20,7 @@
 		581901891E7BF1B80090AA71 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 581901881E7BF1B80090AA71 /* ViewController1.m */; };
 		5819018C1E7BF1BF0090AA71 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018B1E7BF1BF0090AA71 /* ViewController2.m */; };
 		5819018F1E7BF1C80090AA71 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819018E1E7BF1C80090AA71 /* ViewController3.m */; };
+		58B28BD01E7FB00400D25AFD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B28BCF1E7FB00400D25AFD /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		5819018B1E7BF1BF0090AA71 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		5819018D1E7BF1C80090AA71 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		5819018E1E7BF1C80090AA71 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		58B28BCE1E7FB00400D25AFD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		58B28BCF1E7FB00400D25AFD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				5819018B1E7BF1BF0090AA71 /* ViewController2.m */,
 				5819018D1E7BF1C80090AA71 /* ViewController3.h */,
 				5819018E1E7BF1C80090AA71 /* ViewController3.m */,
+				58B28BCE1E7FB00400D25AFD /* SecondViewController.h */,
+				58B28BCF1E7FB00400D25AFD /* SecondViewController.m */,
 				5819016D1E7B79E30090AA71 /* Assets.xcassets */,
 				5819016F1E7B79E30090AA71 /* LaunchScreen.storyboard */,
 				581901721E7B79E30090AA71 /* Info.plist */,
@@ -203,6 +208,7 @@
 				581901891E7BF1B80090AA71 /* ViewController1.m in Sources */,
 				5819018C1E7BF1BF0090AA71 /* ViewController2.m in Sources */,
 				5819017E1E7BC3BE0090AA71 /* LPLeftViewController.m in Sources */,
+				58B28BD01E7FB00400D25AFD /* SecondViewController.m in Sources */,
 				581901661E7B79E30090AA71 /* AppDelegate.m in Sources */,
 				581901631E7B79E30090AA71 /* main.m in Sources */,
 			);

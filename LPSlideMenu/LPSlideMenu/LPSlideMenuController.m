@@ -59,6 +59,28 @@
     [self closeDrawerWithDuration:self.autoScrollDurationTimeInterval];
 }
 
+/// 选择左侧菜单进行跳转
+- (void)JumpByDrawerClosedCompletionBlock:(void (^)(UIViewController *mainViewController))drawerClosedCompletionBlock {
+    [UIView animateWithDuration:self.autoScrollDurationTimeInterval animations:^{
+        self.mainViewController.view.transform = CGAffineTransformIdentity;
+        self.leftViewController.view.transform = CGAffineTransformMakeTranslation(- kScreenWidth * 0.5, 0);
+        self.coverButton.alpha = 0;
+    } completion:^(BOOL finished) {
+        [self.coverButton removeFromSuperview];
+        
+        if (drawerClosedCompletionBlock) {
+            
+            UIViewController *currentMainController = self.mainViewController;
+            if (self.mainViewController.childViewControllers.count > 1) {
+                UITabBarController *tabBar = (UITabBarController *)self.mainViewController;
+                currentMainController = tabBar.selectedViewController.childViewControllers.lastObject;
+            }
+            
+            drawerClosedCompletionBlock(currentMainController);
+        }
+    }];
+}
+
 #pragma mark - life cycle
 
 - (void)viewDidLoad {
