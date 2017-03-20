@@ -32,6 +32,7 @@
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [[LPSlideMenuController sharedInstance] JumpByDrawerClosedCompletionBlock:^(UIViewController *mainViewController) {
         SecondViewController *secondVc = [[SecondViewController alloc] init];
+        secondVc.hidesBottomBarWhenPushed = YES;
         [mainViewController.navigationController pushViewController:secondVc animated:NO];
     }];
 }
